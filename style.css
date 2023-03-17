@@ -288,7 +288,7 @@ header {
 .icon-divider {
     width: 35%;
     height: 20px;
-    background-image: url(/Assets/divider.png);
+    background-image: url(Assets/divider.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -309,7 +309,7 @@ header {
     content: "";
     width: 10px;
     height: 10px;
-    background-image: url(/Assets/dot.svg);
+    background-image: url(Assets/dot.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -347,7 +347,7 @@ header {
 }*/
 }
 .home-banner {
-    background-image: url(/Assets/home-banner.jpg);
+    background-image: url(Assets/home-banner.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -475,7 +475,7 @@ header {
 .footer {
     position: fixed;
     top: 80%;
-    background-image: url(/Assets/footer-light.png);
+    background-image: url(Assets/footer-light.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
