@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wingardium Leviosa</title>
+    <link rel="stylesheet" href="/-css/style.css">
+    <link rel="icon" type="image/png" href="/Assets/favicon.ico">
+    <link rel="stylesheet" href="/-css/CSS/bootstrap.min.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/bluu" type="text/css"/>
+</head>
+<body>
+  
+<!--Header starts here-->
+  <header>
+    <div class="navigation_pre-header">
+      <div class="navigation-wrapper">
+        <img class="pre-header_logo" src="/Assets/hp_fan_club_logo_horizontal_dark.png">
+        <h6 class="pre-header_tagline">Welcome to Wingardium Leviosa!</h6>
+        <nav class="navbar_preheader">
+          <a href="#" target="_blank"><span><i class="fa-solid fa-hat-wizard"></i></span>Create Account/Login</a>  
+        </nav>           
+      </div>
+    </div>
+
+    <div class="navigation_main-header">
+        <div id="sidebarBtn"><img src="/Assets/burger.svg" id="menu"></div>
+        <img src="/Assets/logo.png" class="main-header-logo">
+        <div id="sidebar">
+          <img src="/Assets/pre-header_logo.png" class="main-header-logo2">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/-html/about.html">About</a></li>
+            <li><a href="/-html/products.html">Products</a></li>
+            <li><a href="/-html/contact.html">Contact</a></li>
+          </ul>
+        </div>
+    
+        <ul class="navbar_main-header">
+          <li><a class="navigation_search"href=""><i class="fa-solid fa-magnifying-glass"></i><span class="label">Search</span></a></li>
+          <li><a class="navigation_wishlist"href=""><i class="fa-solid fa-heart"></i><span class="label">Wishlist</span></a></li>
+          <li><a class="navigation_items"href=""><i class="fa-sharp fa-solid fa-suitcase"></i><span class="label">Items</span></a></li>      
+        </ul>       
+    </div>
+
+    <div class="navigation_menu">
+      <div class="navigation-wrapper">
+        <i class="icon icon-divider"></i>
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/-html/about.html">About</a></li>
+          <li><a href="/-html/products.html">Products</a></li>
+          <li><a href="/-html/contact.html">Contact</a></li>
+        </ul>
+        <i class="icon icon-divider invert"></i>
+      </div>
+    </div>
+  </header>
+<!--Header ends here-->
+
+  <section id="home" class="home">
+    <div class="home-banner">
+      <div class="overlay"></div>
+      <div class="snow"></div>
+      <h4>Welcome Wizard and Witches</h4>
+      <h4>to</h4>
+      <h1> Wingardium Leviosa</h1>
+      <p>The shop that must not be named.</p>
+      <img class="castle" src="/Assets/castle.png" alt="">
+      <a href="/-html/about.html"><button class="btn btn-light btn-lg">EXPLORE</button></a>
+     </div>   
+  </section>
+
+  <footer class="footer">
+  <div class="footer-wrapper">
+    
+  </div>
+  
+  </footer>
+  <script src="/-js/JS/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/e2b416e5b3.js" crossorigin="anonymous"></script>
+  
+  <script>
+    var sidebarBtn = document.getElementById("sidebarBtn") 
+    var sidebar = document.getElementById("sidebar") 
+    var menu = document.getElementById("menu") 
+    
+    sidebar.style.left = "-300px";
+
+    sidebarBtn.onclick = function(){
+            if (sidebar.style.left == "-300px"){
+                   sidebar.style.left = "0";
+                   menu.src = "/Assets/burger-close.svg"
+            }
+            else {
+              sidebar.style.left = "-300px";
+              menu.src = "/Assets/burger.svg"
+            }
+    }
+  </script>
+    
+</body>
+</html>
