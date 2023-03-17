@@ -394,16 +394,6 @@ header {
 .modal-content {
     background-color:#fcf5e7;
 }
-.row {
-    padding: 0 50px;
-}
-.card {
-    margin-bottom: 20px;
-    margin-top: 30px;
-}
-.divider {
-    width: 400px;
-}
 @media (max-width: 360px), (max-width: 375px)
 {.home-banner .btn {
     top: 50% !important;
