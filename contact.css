@@ -173,7 +173,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #4a2b10;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     font-family: 'Crimson Text', serif;
 }
@@ -368,6 +368,7 @@ header {
     padding: 20px 0;
     background-color: #fcf5e7;
     text-align: center;
+    font-family: 'Crimson Text', serif;
 }
 .contact-text h1 {
     color: #4a2b10;
@@ -379,7 +380,7 @@ header {
 .contact-wrapper {
     width: 720px;
     background-color: #4a2b10;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 .title {
     border-bottom: 1px solid #fcf5e7;
@@ -413,6 +414,8 @@ form .message textarea {
     padding: 0 18px 0 48px;
     border: 1px solid #a85;
     border-radius: 5px;
+    font-family: 'Crimson Text', serif;
+    font-size: 20px;
 }
 form .field input::placeholder,
 form .message textarea::placeholder {
@@ -434,6 +437,7 @@ form .message textarea:focus {
 }
 form .message {
     position: relative;
+    font-family: 'Crimson Text', serif;
 }
 form .message i {
     top: 20px;
@@ -458,6 +462,8 @@ form .button-area {
     margin: 25px 0;
     display: flex;
     align-items: center;
+    font-family: 'BluuNextBold', serif;
+    font-size: 20px;
 }
 .button-area button {
     padding: 13px 25px;

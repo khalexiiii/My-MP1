@@ -173,7 +173,7 @@ header {
     text-align: center;
     text-decoration: none;
     color: #4a2b10;
-    font-size: 18px;
+    font-size: 22px;
     text-align: center;
     font-family: 'Crimson Text', serif;
 }
@@ -358,9 +358,10 @@ header {
     position: relative;
 }
 .about-text {
-    padding: 20px 0;
     background-color: #fcf5e7;
     text-align: center;
+    overflow: hidden;
+    padding: 0 10px;
 }
 .about-text h1 {
     color: #4a2b10;
