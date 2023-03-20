@@ -326,6 +326,12 @@ header {
     font-family: 'BluuNextBold', serif;
     font-size: 22px;
 }
+.navigation_menu .navigation-wrapper li a:hover {
+    background-color: #4a2b10;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+}
 .navigation_menu .navigation-wrapper .icon-divider.invert {
     margin-top: -10px;
     position: absolute;
